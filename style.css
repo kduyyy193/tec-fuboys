@@ -333,4 +333,5 @@ button:hover {
   transform: translateY(14px);
   font-weight: 600;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  animation: blink 1s infinite linear;
 }
