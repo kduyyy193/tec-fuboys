@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .wrap {
+    display: block;
+    margin: 12px auto;
+  }
+}
