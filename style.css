@@ -271,9 +271,12 @@ button:hover {
 
 .desc {
   font-size: 14px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10 px;
 }
 
 .relationship {
@@ -334,8 +337,4 @@ button:hover {
   font-weight: 600;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   animation: blink 1s infinite linear;
-}
-
-#audio {
-  display: none;
 }
