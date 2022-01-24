@@ -12,7 +12,6 @@
     </head>
     <body>
         <div class="wrap">
-
             <div class="container">
                 <div class="ring"></div>
                 <div class="ring"></div>
@@ -23,7 +22,7 @@
                 <div class="card">
                     <div class="relationship ">
                         <a href="#" class="relationship__info target="_blank"">
-                             Him
+                                Rels
                              <i class="fas fa-frown-open relationship__icon"> </i>
                         </a>
                     </div>
@@ -52,12 +51,12 @@
                 <div class="card">
                     <div class="relationship ">
                         <a href="#" class="relationship__info target="_blank"">
-                             Him
+                                Rels
                              <i class="fas fa-frown-open relationship__icon"> </i>
                         </a>
                     </div>
                     <div class="card__img">
-                        <img src="./img/19fdedacb63e7237204d14c4e15d44ef.jpeg" alt=""/>
+                        <img src="./img/IMG_0071.JPG" alt=""/>
                     </div>
                     <h2>Nguyễn K D</h2>
                     <div class="career">
@@ -80,7 +79,7 @@
                 <div class="card">
                     <div class="relationship">
                         <a href="https://www.facebook.com/trinh.buimai" class="relationship__info target="_blank"">
-                             Him
+                                Rels
                             <i class="fas fa-heart relationship__icon "></i>
                         </a>
                     </div>
@@ -107,7 +106,23 @@
 
                 </div>
             </div>
-                
+            <div class="music">
+                <p>Click to listen 
+                    <i class="far fa-play-circle" id="icon"></i>
+                </p> 
+            </div>
+            <audio id="song" src="./song/Nhất Thân - Masew x Khoi Vu - Remix.mp3" type="audio/mp3"></audio>
         </div>
     </body>
+    <script>
+        var song = document.getElementById("song");
+        var icon = document.getElementById("icon");
+        icon.onclick = function() { 
+            if(song.paused) { 
+                song.play();
+            } else { 
+                song.pause();
+            }
+        }
+    </script>
 </html>

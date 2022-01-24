@@ -3,4 +3,8 @@
     display: block;
     margin: 12px auto;
   }
+  .music {
+    top: 2px;
+    right: 2px;
+  }
 }
