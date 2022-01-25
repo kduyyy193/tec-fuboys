@@ -108,7 +108,9 @@
             </div>
             <div class="music">
                 <p>Click to listen 
-                    <i class="far fa-play-circle" id="icon"></i>
+                    <div id="icon">
+                        <i class="far fa-play-circle" ></i>
+                    </div>
                 </p> 
             </div>
             <audio id="song" src="./song/Nhất Thân - Masew x Khoi Vu - Remix.mp3" type="audio/mp3"></audio>
@@ -120,8 +122,10 @@
         icon.onclick = function() { 
             if(song.paused) { 
                 song.play();
+                icon.innerHTML = "<i class=\"far fa-play-circle\"></i>";
             } else { 
                 song.pause();
+                icon.innerHTML = "<i class=\"far fa-pause-circle\"></i>";
             }
         }
     </script>
